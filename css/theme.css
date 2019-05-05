@@ -10433,7 +10433,7 @@ body.theme-dark input.toggle-btn + label:before {
   margin: 0 auto;
   padding: 8px 0px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.22px;
   height: auto;
@@ -11032,7 +11032,7 @@ button.btn-print-summary:hover {
   color: $gray-800;
   font-size: 17px;
   line-height: 1.47059;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -.022em;
   border: 1px solid $gray-400;
   background-color: #ffffff;
@@ -11355,7 +11355,7 @@ ul.nav-tabs li.nav-item {
 ul.nav-tabs li.nav-item a.nav-link {
   color: #333;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.22px;
   padding: 9px 0 11px;
@@ -11433,7 +11433,7 @@ table.table thead tr th {
 }
 
 table.table thead tr th span.clickable {
-  font-weight: 600;
+  font-weight: 700;
   background-size: 8px 8px;
   background-position: right center;
   width: -webkit-fit-content;
@@ -11541,7 +11541,7 @@ header#global_nav_wrapper nav#global_nav {
 header#global_nav_wrapper nav#global_nav .global-nav-title {
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 28px;
   line-height: 44px;
   height: 44px;
@@ -11732,7 +11732,7 @@ header#local_nav_wrapper nav#local_nav {
 header#local_nav_wrapper nav#local_nav .local-nav-title {
   color: #111;
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 52px;
   height: 52px;
 }
@@ -12003,7 +12003,7 @@ p.xsmall,
 strong,
 b,
 .strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h1, div.custom-modal .modal-dialog .modal-content .modal-title, .h1,
@@ -12015,7 +12015,7 @@ h6, .h6 {
   font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   margin: 0px;
   color: #111;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h1, div.custom-modal .modal-dialog .modal-content .modal-title,
