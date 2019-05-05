@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Lato", "Open Sans", "Helvetica Neue", Arial,  sans-serif;
+  --font-family-sans-serif: "Lato", "Open Sans", 'Noto Sans JP', "Osaka", "Helvetica Neue", Arial,  sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -43,7 +43,6 @@
 }
 
 html {
-  font-family: 'Lato', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -54,6 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+  font-family: "Lato", "Open Sans", 'Noto Sans JP', "Osaka", "Helvetica Neue", Arial,  sans-serif;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -11929,7 +11929,6 @@ header#global_nav_wrapper.navlite .dropdown-menu::before, header#global_nav_wrap
 
 /* ----- root ----- */
 html {
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 17px;
 }
 
@@ -11939,7 +11938,6 @@ body {
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* ----- links ----- */
@@ -12012,7 +12010,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Lato", "Open Sans", 'Noto Sans JP', "Osaka", "Helvetica Neue", Arial,  sans-serif;
   margin: 0px;
   color: #111;
   font-weight: 700;
