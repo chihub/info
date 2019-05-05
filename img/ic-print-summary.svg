@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="34px" viewBox="0 0 38 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Store" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-F-On-Prem-Checkout" transform="translate(-1162.000000, -236.000000)">
+            <g id="Group-2" transform="translate(1162.000000, 236.000000)">
+                <rect id="Rectangle-2" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="7" y="1" width="25" height="16" rx="1"></rect>
+                <rect id="Rectangle-2-Copy" stroke="#333333" stroke-width="2" fill="#333333" x="1" y="10" width="36" height="12" rx="1"></rect>
+                <path d="M7,24.5546376 L16.383736,33 L32,33 L32,17 L7,17 L7,24.5546376 Z" id="Rectangle-2-Copy-2" stroke="#333333" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M16,26 L8.85669263,26 L16,31.8813348 L16,26 Z" id="Triangle" stroke="#333333" stroke-width="2" fill="#FFFFFF"></path>
+                <rect id="Rectangle-4" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="11" y="21" width="17" height="1"></rect>
+                <rect id="Rectangle-4-Copy" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="20" y="25" width="8" height="1"></rect>
+                <rect id="Rectangle-4-Copy-2" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="20" y="29" width="8" height="1"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="3" y="12" width="11" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
