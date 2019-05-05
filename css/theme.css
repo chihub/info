@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11770,7 +11771,7 @@ header#local_nav_wrapper nav#local_nav {
 
 header#local_nav_wrapper nav#local_nav .local-nav-title {
   color: #111;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 600;
   line-height: 52px;
   height: 52px;
