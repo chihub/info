@@ -407,7 +407,7 @@ hr {
 }
 .thumbnail:hover{
   transform: scale(1.05); /* Standard syntax */
-  transition: all 120ms ease-out;
+  transition: all 150ms ease-out;
 }
 /* ----- 10 modal lightbox ----- */
 .modal-body {
