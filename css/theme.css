@@ -439,7 +439,6 @@ color: white;
   border-radius: 4px;
   box-sizing: border-box;
   cursor: pointer;
-  display: inline-block;
   min-width: 30px;
   text-align: center;
   white-space: nowrap;
@@ -447,7 +446,6 @@ color: white;
   border: 1px solid #d6d6d6;
   background-color: white;
 }
-
 .btn:hover, .btn-focus, .btn:active{
   border: 1px solid #ddd;
 }
@@ -557,4 +555,17 @@ button.btn-link, a.btn-link {
   color: #0070c9;
   padding: 0px;
   cursor: pointer;
+}
+/* ----- show hide button ----- */
+.btn-secondary.toggle {
+  display: inline-block;
+}
+.btn-secondary.toggle.collapsed {
+  display: none;
+}
+.btn-primary.toggle {
+  display: none;
+}
+.btn-primary.toggle.collapsed {
+  display: inline-block;
 }
