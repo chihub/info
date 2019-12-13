@@ -26,11 +26,11 @@ body {
   margin: 0px;
 }
 .full-width {
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0px;
 }
 .full-width-padding {
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0px 22px;
 }
 @media (max-width: 767px) {
@@ -163,7 +163,7 @@ header#local_nav_wrapper {
   top: 0px;
 }
 header#local_nav_wrapper nav#local_nav {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
   height: 52px;
 }
