@@ -297,7 +297,7 @@ header#local_nav_wrapper nav#local_nav .country-select span {
 p, p.large, .large {
   font-size: 21px;
   letter-spacing: 0.231px;
-  line-height: 1.47;
+  line-height: 1.5;
   font-weight: 400;
 }
 p, p.normal, .normal {
@@ -328,7 +328,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 700;
 }
 h1, .h1 {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.2;
   letter-spacing: 0;
 }
