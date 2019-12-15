@@ -556,6 +556,22 @@ button.btn-link, a.btn-link {
   padding: 0px;
   cursor: pointer;
 }
+.ic_social{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .0);
+  transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+.ic_social:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
+  transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+.img_link{
+  display: inline-block;
+  margin-right: 16px;
+}
 /* ----- show hide button ----- */
 .btn-secondary.toggle {
   display: inline-block;
