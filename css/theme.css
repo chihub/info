@@ -117,10 +117,10 @@ body {
 
 /* ----- 3 links ----- */
 a {
-  color: #0070c9;
+  color: #FF0954;
 }
 a:focus {
-  color: #0070c9;
+  color: #FF0954;
   box-shadow: 0 0 0 3px rgba(131, 192, 253, 0.5);
   outline-offset: 1px;
   outline: none;
@@ -130,7 +130,7 @@ a:active:focus {
   outline: none;
 }
 a:hover, a:focus:hover {
-  color: #0070c9;
+  color: #FF0954;
   text-decoration: underline;
 }
 /* ----- 4 navbar and header ----- */
@@ -333,7 +333,7 @@ h1, .h1 {
   letter-spacing: 0;
 }
 h2, .h2 {
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.2;
   letter-spacing: 0.128px;
 }
@@ -488,48 +488,48 @@ button.btn-link:focus, a.btn-link:focus {
 
 .btn-md {
   font-size: 17px;
-  padding: 4px 15px;
+  padding: 4px 16px;
   min-width: 80px;
 }
 
 .btn-sm {
   font-size: 12px;
-  padding: 2px 10px;
+  padding: 3px 12px;
   min-width: 20px;
 }
 
 /* ----- button styles ----- */
 .btn-primary {
-    background-color: #0070c9; /*#da0f47;*/
-    border-color: #07c;
+    background-color: #FF0954; /*#da0f47;*/
+    border-color: #FF0954;
     color: white;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #077dda;
-    border-color: #1482d0 !important;
+    background-color: #e20e4e;
+    border-color: #e20e4e !important;
     color: white !important;
 }
-.btn-primary:active {
-    background-color: #0070c9;
-    border-color: #006dbc;
+.btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #FF0954;
+    border-color: #FF0954;
 }
 .btn-secondary {
-    background-color: #e3e3e3;
-    background: linear-gradient(white, #e3e3e3);
+    background-color: #eeeeee;
+    /*background: linear-gradient(white, #e3e3e3);*/
     border-color: #d6d6d6;
     color: #666;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-    background-color: #eeeeee;
-    background: linear-gradient(white, #eeeeee);
+    background-color: #e3e3e3;
+    /*background: linear-gradient(white, #eeeeee);*/
     border-color: #d9d9d9 !important;
     color: #666 !important;
 }
-.btn-secondary:active {
+.btn-secondary:active, .btn-secondary:not(:disabled):not(.disabled):active{
     background-color: #eeeeee;
-    background: linear-gradient(#f7f7f7, gainsboro);
+    /*background: linear-gradient(#f7f7f7, gainsboro);*/
     border-color: #d0d0d0;
     color: #666;
 }
