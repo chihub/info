@@ -409,6 +409,11 @@ hr {
   transform: scale(1.05); /* Standard syntax */
   transition: all 150ms ease-out;
 }
+.slide{
+  width: 100%;
+  margin-bottom:10px;
+  border: 1px solid #ddd;
+}
 /* ----- 10 modal lightbox ----- */
 .modal-body {
   padding: 0px;
