@@ -583,3 +583,69 @@ button.btn-link, a.btn-link {
 .btn-primary.toggle.collapsed {
   display: inline-block;
 }
+
+.form-control {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  height: auto;
+}
+.form-control:focus {
+  border-color: $blue !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+input.form-control::-ms-clear{
+  display: none; //IE hide clear button 
+}
+
+/* floating label forms */
+.form-float-label {
+  position: relative;
+  .form-control {
+      padding-top: 24px;
+      padding-bottom: 5px;
+  }
+  textarea.form-control {
+      padding-top: 30px;
+      padding-bottom: 5px;
+  }
+  select.form-control {
+      padding-top: 24px;
+      padding-bottom: 5px;
+  }
+  label {
+      position: absolute;
+      top: 17px;
+      left: $input-padding-x;
+      color: #888;
+      pointer-events: none;
+      padding: 0;
+      z-index: 1;
+      transition-timing-function: ease-in;
+      transition-duration: .125s;
+      margin-bottom: .5rem;
+  }
+}
+// Styles for FOCUSED input, Select box & filled fields
+input.form-control:focus~label,
+input.form-control.filled~label,
+input.form-control:disabled~label,
+select.form-control:focus~label,
+select.form-control.filled~label,
+select.form-control:disabled~label,
+textarea.form-control:focus~label,
+textarea.form-control.filled~label,
+textarea.form-control:disabled~label {
+  top: 6px !important;
+  left: $input-padding-x;
+  color: #666666 !important;
+  font-size: 12px;
+}
+
+/* checkboxes and radio buttons */
+input[type='checkbox']:hover, input[type='radio']:hover{
+  cursor: pointer;    
+}
+input[type='checkbox']:hover~label, input[type='radio']:hover~label{
+  cursor: pointer;    
+}
